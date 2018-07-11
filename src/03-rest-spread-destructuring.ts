@@ -1,8 +1,8 @@
 
 /* rest operator */
-function varArgsMax(first: number, ...other: number[]) {
+function varArgsMax(head: number, ...other: number[]) {
     const sumOfOthers = Math.max(...other);
-    return Math.max(first, sumOfOthers);
+    return Math.max(head, sumOfOthers);
 }
 
 console.log(varArgsMax(1, 4, 9));
@@ -16,6 +16,6 @@ const point = {
     x: 1,
     y: 2,
 };
-const point2 = { ...point, x: 3 };
+const point2 = { ...betterPoint, x: 3 };
 
-console.log(point2);
+console.log(betterPoint2);
