@@ -17,11 +17,7 @@ class BetterPoint2D {
         sqrt(pow((point.x - this.x), 2) + pow((point.y - this.y), 2))
 }
 
-const main = () => {
-    const point = BetterPoint2D.fromCoordinates(1, 4);
-    const point2 = BetterPoint2D.fromCoordinates(5, 4);
+const betterPoint = BetterPoint2D.fromCoordinates(1, 4);
+const betterPoint2 = BetterPoint2D.fromCoordinates(5, 4);
 
-    console.log(point.distance(point2));
-};
-
-main();
+console.log(betterPoint.distance(betterPoint2));
