@@ -1,0 +1,21 @@
+{
+  "name": "ts-lunch-and-learn",
+  "version": "0.0.1",
+  "description": "typescript introduction",
+  "repository": {},
+  "scripts": {
+    "build": "npm run-script clean && npm run-script lint && npm run-script compile",
+    "compile": "tsc",
+    "compile-watch": "tsc -w",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "clean": "rm -rf build dist"
+  },
+  "author": "marco.siviero@jobrapido.com, howard.scordio@jobrapido.com",
+  "license": "UNLICENSED",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^10.5.2",
+    "tslint": "^5.10.0",
+    "typescript": "^2.9.2"
+  }
+}
