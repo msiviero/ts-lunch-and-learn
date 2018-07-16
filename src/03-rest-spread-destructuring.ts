@@ -16,6 +16,6 @@ const point = {
     x: 1,
     y: 2,
 };
-const point2 = { ...betterPoint, x: 3 };
+const point2 = { ...pointInstance, x: 3 };
 
-console.log(betterPoint2);
+console.log(pointInstance2);
